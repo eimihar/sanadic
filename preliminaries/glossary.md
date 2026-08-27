@@ -17,9 +17,30 @@ isnad happens to use nearly every transmission verb in the glossary within
 a single chain, and because it's one of the most-discussed hadiths in
 academic isnad-analysis literature.
 
-**Matn (paraphrased in English):** Actions are judged according to the
-intentions behind them, and each person will be credited according to what
-they intended.
+**Full text (Arabic), as recorded by al-Bukhari:**
+
+> حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ، قَالَ حَدَّثَنَا
+> سُفْيَانُ، قَالَ حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الأَنْصَارِيُّ، قَالَ
+> أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ، أَنَّهُ سَمِعَ
+> عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ، يَقُولُ سَمِعْتُ عُمَرَ بْنَ
+> الْخَطَّابِ رضى الله عنه عَلَى الْمِنْبَرِ قَالَ سَمِعْتُ رَسُولَ اللَّهِ
+> صلى الله عليه وسلم يَقُولُ: «إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا
+> لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى دُنْيَا
+> يُصِيبُهَا أَوْ إِلَى امْرَأَةٍ يَنْكِحُهَا فَهِجْرَتُهُ إِلَى مَا هَاجَرَ
+> إِلَيْهِ.»
+
+**English rendering:** Al-Humaydi 'Abdullah ibn al-Zubayr told us: Sufyan
+told us: Yahya ibn Sa'id al-Ansari told us: Muhammad ibn Ibrahim al-Taymi
+informed me that he heard 'Alqamah ibn Waqqas al-Laythi say: I heard 'Umar
+ibn al-Khattab, on the pulpit, say: I heard the Messenger of God say:
+"Actions are only by intentions, and every person will get what they
+intended. Whoever's migration was for worldly gain or to marry a woman,
+his migration is to whatever he migrated for."
+
+Note the matn itself isn't just the abstract opening line — it ends with a
+concrete illustration (the migration example), which is exactly the kind
+of detail a `matnEn` field needs to preserve in full; truncating it loses
+half the point being made.
 
 **Sanad (compiler → Prophet, as al-Bukhari recorded it):**
 
